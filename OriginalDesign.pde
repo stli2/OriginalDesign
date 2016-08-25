@@ -11,8 +11,10 @@ void draw()
 
 void sea()
 {
-	//background for the water 
-	rect(5000,1,1,1);
+	//background for the water
+	noStroke(); 
+	fill(0,128,128)
+	rect(-5, 300, 510, 200);
 	//lines for waves 
 
 }
